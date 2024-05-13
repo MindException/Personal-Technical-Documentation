@@ -33,6 +33,12 @@ Logman.exe create counter PerfLog -o "c:\perflogs\PerfLog.blg" -f bincirc -v mmd
 * __-a__: 로그 파일이 존재하지 않으면 새로운 파일을 만듭니다.
 * __-cnf__: 24:00:00 으로 순환되는 간격은 24시간입니다.
 * __-si__: 00:00:05 으로 카운터 샘플링 간격 시간은 5초로 한 번씩 샘플링합니다.
+* __-c__: 관련된 해당 카운트들을 수집합니다.
+    * 물리 디스크: "\PhysicalDisk(*)\*"
+    * 논리 디스크: "\LogicalDisk(*)\*"
+    * 메모리: "\Memory(*)\*"
+    * 프로세서: "\Processor(*)\*"
+    * 프로세스: "\Process(*)\*"
 
 
 ### 4. 수집 시작
