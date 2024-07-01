@@ -86,7 +86,7 @@ pip freeze > [가상환경 이름]\requirements.txt
 ![](./MD_Images/pyhton_offlinepackages_001.png)
 * 아래의 명령어를 입력하여 가상환경에 설치된 목록(requirements)을 다운로드합니다.
 ```bash
-python -m pip install --no-index --find-links="[패키지를 저장할 경로 폴더]" -r requirements.txt
+pip download -r requirements.txt -d [현재 경로에 저장할 폴더명]
 ```
 
 ### 2. 저장된 패키지 확인
