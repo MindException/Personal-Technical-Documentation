@@ -1,0 +1,1 @@
+_FCI 및 AG 등은 SQL Server 뿐만이 아닌 Windows Server에 대한 기본적인 이해가 필요합니다._
