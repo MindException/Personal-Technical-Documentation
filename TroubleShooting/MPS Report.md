@@ -4,6 +4,8 @@
 MPS Report -> Portable_Diagnostic -> TSS로 발전하였으며, 아래의 링크에서 TSS는 다운로드 가능합니다.(_이전 버전은 EOS 되었습니다._)  
 링크: [https://learn.microsoft.com/ko-kr/troubleshoot/windows-client/windows-tss/introduction-to-troubleshootingscript-toolset-tss](https://learn.microsoft.com/ko-kr/troubleshoot/windows-client/windows-tss/introduction-to-troubleshootingscript-toolset-tss)
 
+_Windows Server 2025 & Windows 11에서 정상적으로 수집되지 않기 때문에 위와 같이 TSS를 사용하여 수집해야합니다._
+
 </br>
 
 # 1. Portable_Diagnostic 수집(English)
